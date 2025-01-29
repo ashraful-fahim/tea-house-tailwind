@@ -23,9 +23,14 @@
       }
     }
   </script>
+  <style>
+    .font-manrope{
+    font-family: "Manrope", serif;
+    }
+  </style>
 </head>
 
-<body>
+<body class="font-manrope">
   <!-- main content -->
   <main class="max-w-screen-xl mx-auto px-16">
     <!-- header section -->
@@ -193,8 +198,8 @@
       <!-- card section -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <!-- card-1 -->
-        <div class="border-2 bg-white rounded-xl flex flex-col items-center text-start py-5">
-          <div class="w-80 mb-2">
+        <div class="border-2 bg-white rounded-xl flex flex-col items-center text-start py-5 w-72 md:w-80">
+          <div class="mb-2 px-6">
             <img class="w-full" src="./images/news-1.png" alt="">
           </div>
           <div class="items-center space-y-2 px-8">
@@ -206,8 +211,8 @@
           </div>
         </div>
         <!-- card-2 -->
-        <div class="border-2 bg-white rounded-xl flex flex-col items-center text-start py-5">
-          <div class="w-80 mb-2">
+        <div class="border-2 bg-white rounded-xl flex flex-col items-center text-start py-5 w-72 md:w-80">
+          <div class="mb-2 px-6">
             <img class="w-full" src="./images/news-2.png" alt="">
           </div>
           <div class="items-center space-y-2 px-8">
@@ -219,8 +224,8 @@
           </div>
         </div>
         <!-- card-3 -->
-        <div class="border-2 bg-white rounded-xl flex flex-col items-center text-start py-5">
-          <div class="w-80 mb-2">
+        <div class="border-2 bg-white rounded-xl flex flex-col items-center text-start py-5 w-72 md:w-80">
+          <div class="mb-2 px-6">
             <img class="w-full" src="./images/news-3.png" alt="">
           </div>
           <div class="items-center space-y-2 px-8">
@@ -234,6 +239,69 @@
       </div>
     </section>
   </main>
+  <footer class="bg-orange-100 py-28">
+  <div class="w-3/4 mx-auto">
+    <!-- logo -->
+    <div class="flex gap-4 justify-between mb-20">
+      <img src="./images/cup.png" alt="">
+        <div class="flex items-center gap-1">
+          <p>Ready to get strated?</p>
+          <button class="px-4 py-2 font-bold bg-gradient-to-r from-orange-400 to-red-700 rounded-lg text-white">Get Started</button>
+        </div>
+    </div>
+    <!-- links -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+      <!-- first column -->
+      <div class="mt-8">
+        <h4 class="font-semibold mb-2">Quick Links</h4>
+        <ul class="space-y-2">
+          <li><a class="hover:text-orange-500" href="#">Home</a></li>
+          <li><a class="hover:text-orange-500" href="#">About Us</a></li>
+          <li><a class="hover:text-orange-500" href="#">Insurance</a></li>
+          <li><a class="hover:text-orange-500" href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <!-- second column -->
+      <div class="mt-8">
+        <h4 class="font-semibold mb-2">Our Services</h4>
+        <ul class="space-y-2">
+          <li><a class="hover:text-orange-500" href="#">Life Insurance</a></li>
+          <li><a class="hover:text-orange-500" href="#">Car Insurance</a></li>
+          <li><a class="hover:text-orange-500" href="#">Health Insurance</a></li>
+          <li><a class="hover:text-orange-500" href="#">House Insurance</a></li>
+        </ul>
+      </div>
+      <!-- Third column -->
+      <div class="mt-8">
+        <h4 class="font-semibold mb-2">Help</h4>
+        <ul class="space-y-2">
+          <li><a class="hover:text-orange-500" href="#">FAQs</a></li>
+          <li><a class="hover:text-orange-500" href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- fourth column -->
+      <div class="mt-8">
+        <h3 class="font-semibold text-xl mb-4">Subscribe to our newsletter</h3>
+        <div class="flex flex-col space-y-6">
+          <div>
+            <input type="text" placeholder="Email Address" class="bg-transparent border-b-2 border-black w-4/5">
+            <i class="fa-solid fa-arrow-right w-7 h-7 bg-orange-500 rounded-full text-white inline-flex justify-center items-center"></i>
+          </div>
+          <div class="flex justify-between w-2/5 mb-2 mt-4 mb-6">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <p class="flex justify-center text-gray-500 mt-28">© 2027 ashraful98dev - All rights reserved.</p>
+    </div>
+  </div>
+
+  </footer>
 </body>
 
 </html>
